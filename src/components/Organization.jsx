@@ -39,7 +39,8 @@ const Organization = () => {
 									<img src={add_group} className="img-group-add" /> 
 								</a>
 
-								<ul role="group" class="jstree-children" ><li role="treeitem" aria-selected="true" aria-level="3" aria-labelledby="de4404028e1345a0_anchor" id="de4404028e1345a0" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow jstree-wholerow-clicked">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor jstree-clicked" href="#" tabindex="-1" id="de4404028e1345a0_anchor">
+								<ul role="group" class="jstree-children" >
+									<li role="treeitem" aria-selected="true" aria-level="3" aria-labelledby="de4404028e1345a0_anchor" id="de4404028e1345a0" class="jstree-node  jstree-leaf"><div unselectable="on" role="presentation" class="jstree-wholerow jstree-wholerow-clicked">&nbsp;</div><i class="jstree-icon jstree-ocl" role="presentation"></i><a class="jstree-anchor jstree-clicked" href="#" tabindex="-1" id="de4404028e1345a0_anchor">
 									
 									
 									<i class="jstree-icon jstree-themeicon jstree-themeicon-custom" role="presentation" ></i>

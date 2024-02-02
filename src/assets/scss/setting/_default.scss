@@ -146,6 +146,10 @@ body {
     height: 32px;
     color: #6264a7;
     user-select: none;
+    
+    &.btn_cancel{
+        margin-left: 5px;
+    }
 }
 
     .btn_line2:focus {
