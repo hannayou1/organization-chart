@@ -395,7 +395,7 @@
     padding: 0px;
     overflow-x: hidden;
     overflow-y: auto;
-    border-right: 1px solid;
+    border-right: 0;
     border-right-color: currentcolor;
     background-color: #F9F8F7;
     border-color: #ddd;
@@ -419,6 +419,11 @@
     height: 100%;
     border-top: 1px solid var(--borderColor);
   }
+
+.org_layout .tab_org_content > .tab-pane {
+    border-right: 1px solid var(--borderColor);
+}
+
 
   .tab-content > .active {
     display: block;
@@ -672,3 +677,9 @@
   .shifted {
     right: 326px; /* 버튼 클릭 시 오른쪽으로 326px 이동 */
   }
+
+  .jstree-icon.jstree-themeicon{
+    background-image: url('../../img/icon/group.png') !important;
+    background-position: center center !important;
+    background-size: auto;
+}

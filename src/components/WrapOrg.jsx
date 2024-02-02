@@ -4,7 +4,10 @@ import state_online from '../assets/img/ico_state_online.png'
 
 import { orgText , tabContents02 } from '../data/main';
 
+
 const WrapOrg = () => {
+
+	
  // 현재 선택된 탭의 인덱스를 관리하는 state
  const [selectedTab, setSelectedTab] = useState(0);
 
