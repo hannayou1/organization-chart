@@ -8,6 +8,15 @@ const WrapView = () => {
     const handleButtonClick = () => {
         setWrapViewVisible(!isWrapViewVisible);
         
+    // 만약 visible이 true일 때, right 값을 500px로 설정
+    if (!isWrapViewVisible) {
+        const toggleView = document.querySelector('.toggle_view');
+        if (toggleView) {
+            toggleView.style.right = '500px';
+        }else{
+            toggleView.style.right = '0';
+        }
+        }
       };
 
 
@@ -22,16 +31,10 @@ const WrapView = () => {
 
 const [isViewVisible, setViewVisible] = useState(true);
 
-// const toggleView = () => {
-//     // 상태를 토글
-//     //   setViewVisible(!isViewVisible);
-//         // alert 창 띄우기
-//     alert('View Toggled!');
-// };
 
   return (
     <>
-        <div className={`wrap_view ${isWrapViewVisible ? 'visible' : 'hidden'}`}>
+        <div className={`wrap_view ${isWrapViewVisible ? 'visible' : ''}`}>
         <div id='divAdd'>
             <div className="box_btn_group p10">
                 <div className="pull-left font-middle view_addr_title">사용자 보기 &nbsp;&nbsp;&nbsp;<span id="orgUserCount-addr" className="span-count">5</span></div>
